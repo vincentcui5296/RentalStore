@@ -179,6 +179,10 @@
     <Compile Include="Migrations\202005091712085_InitialModel.Designer.cs">
       <DependentUpon>202005091712085_InitialModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202005091738108_AddIsSubscribedToCustomer.cs" />
+    <Compile Include="Migrations\202005091738108_AddIsSubscribedToCustomer.Designer.cs">
+      <DependentUpon>202005091738108_AddIsSubscribedToCustomer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -270,6 +274,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202005091712085_InitialModel.resx">
       <DependentUpon>202005091712085_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005091738108_AddIsSubscribedToCustomer.resx">
+      <DependentUpon>202005091738108_AddIsSubscribedToCustomer.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
